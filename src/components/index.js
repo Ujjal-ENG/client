@@ -1,4 +1,7 @@
 import Logo from "../components/Logo";
 import Formflow from "./Formflow";
 import Alert from "./Alert";
-export { Alert, Formflow, Logo };
+import Navbar from "./Navbar";
+import BigSideBar from "./BigSideBar";
+import SmallSideBar from "./SmallSideBar";
+export { Alert, Formflow, Logo, Navbar, BigSideBar, SmallSideBar };

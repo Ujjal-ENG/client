@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import main from "../assets/images/main-alternative.svg";
 
@@ -22,7 +23,9 @@ const LandingPage = () => {
             voluptate, illum magnam. Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Quisquam, velit!
           </p>
-          <button className="btn btn-hero">Login/Register</button>
+          <Link to="/register">
+            <button className="btn btn-hero">Login/Register</button>
+          </Link>
         </div>
 
         <img src={main} alt="job hunt" className="img main-img" />
